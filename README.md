@@ -2,7 +2,7 @@
 
 A comprehensive enterprise-grade system for order management with real-time analytics, built using modern microservices architecture.
 
-## 🏗️ Architecture Overview
+## Architecture Overview
 
 ```
 ┌─────────────────┐    ┌─────────────────┐    ┌─────────────────┐
@@ -23,7 +23,7 @@ A comprehensive enterprise-grade system for order management with real-time anal
                                               └─────────────────┘
 ```
 
-## 🛠️ Tech Stack
+##  Tech Stack
 
 ### Backend
 - **Java 17** + **Spring Boot 3.x** - Core order service
@@ -46,7 +46,7 @@ A comprehensive enterprise-grade system for order management with real-time anal
 - **TestContainers** - Integration testing
 - **PyTest** - Python testing
 
-## 🚀 Quick Start
+## Quick Start
 
 ### Prerequisites
 - Java 17+
@@ -74,7 +74,7 @@ order-processing-system/
 └── docs/                  # Documentation
 ```
 
-## 🎯 Features
+## Features
 
 ### Order Management
 - Create, read, update orders
@@ -94,7 +94,7 @@ order-processing-system/
 - System monitoring
 - User management
 
-## 🧪 Testing
+## Testing
 
 Run all tests:
 ```bash
@@ -113,14 +113,14 @@ pytest analytics-service/
 mvn verify -f order-service/pom.xml
 ```
 
-## 📊 Monitoring
+## Monitoring
 
 - Application metrics via Micrometer
 - Kafka monitoring via Kafka Manager
 - Database monitoring via pgAdmin
 - Custom dashboards in React frontend
 
-## 🔧 Development
+## Development
 
 See individual service README files for detailed development instructions:
 - [Order Service](order-service/README.md)
